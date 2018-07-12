@@ -1,0 +1,78 @@
+nav {
+    background: rgb(245, 238, 238);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /*     display: inline; */
+}
+
+nav img {
+    width: 60px;
+    height: 60px;
+}
+
+nav>div {
+    display: inline-block;
+}
+
+.compartir {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+}
+
+.contenedor {
+    margin-top: 70px;
+}
+
+.imagen-centro {
+    position: relative;
+    margin-left: 50%;
+}
+
+.modulos {
+    /*     position: absolute;
+    left: 0px;
+    top: 40px; */
+}
+
+.contenedor {
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 25rem;
+    width: 100%;
+    margin: 15vh 5.71429rem 15vh 0;
+}
+
+.contendor img {
+    width: 300px;
+    overflow: visible;
+    position: relative;
+    transform: translateY(3.57143rem);
+    /*opacity: 0;*/
+    transition: 1s opacity cubic-bezier(0.165, 0.84, 0.44, 1), 13s transform cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.btn-conf {
+    background: rgb(45, 134, 236);
+    color: white;
+    padding: 30px;
+}
+
+.btn-def {
+    background: black;
+    color: white;
+    padding: 10px;
+    margin-left: -10px;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 799px) {
+    .contenedor {
+        display: block;
+    }
+}
